@@ -7,7 +7,7 @@ export default class Propiedades extends Component {
             contador:0
         }
     }
-
+    //props => object
     render() {
         return (
             <>

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Componente from './components/Componentes'
 import Propiedades from './components/propiedades';
 
 function App() {
@@ -15,7 +16,12 @@ function App() {
         >
         </a> Seguir
       </header>
+      <Componente msg="Hola soy un componente"/>
+      <hr/>
+      <hr/>
       <Propiedades/>
+      <hr/>
+      <hr/>
     </div>
   );
 }
