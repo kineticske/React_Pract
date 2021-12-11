@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Componente from './components/Componentes'
 import Propiedades from './components/propiedades';
+import Reloj from './components/Reloj'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Propiedades/>
       <hr/>
       <hr/>
+      <Reloj/>
     </div>
   );
 }
